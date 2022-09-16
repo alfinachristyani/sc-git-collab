@@ -9,7 +9,7 @@ def main():
 
     if operator == "+":
         result = add(data_1, data_2)
-    elif operator == "*" or operator == "x":
+    elif operator == "*":
         result = multiplication(data_1, data_2)
     elif operator == "/":
         result = division(data_1, data_2)
