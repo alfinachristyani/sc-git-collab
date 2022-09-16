@@ -1,4 +1,4 @@
-from math_function import add, multiplication, division
+from math_function import add, multiplication, division, minus
 
 
 def main():
@@ -13,6 +13,8 @@ def main():
         result = multiplication(data_1, data_2)
     elif operator == "/":
         result = division(data_1, data_2)
+    elif operator == "-":
+        result = minus(data_1, data_2)
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
